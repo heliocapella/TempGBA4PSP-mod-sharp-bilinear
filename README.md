@@ -1,13 +1,9 @@
-# TempGBA4PSP-mod
+# TempGBA4PSP-mod-sharp-bilinear
 
-Based on this version (TempGBA4PSP-26731020), http://www1.axfc.net/uploader/so/3063963
+Based on TempGBA4PSP-mod by phoe-nix [https://github.com/phoe-nix/TempGBA4PSP-mod]
 
-Added gpsp kai 's cheats function.
+Implementing a sharp bilinear filter, based on TheMaister's work.
 
-Added Chinese language.
+The idea is to apply a fixed 2x integer prescale resulting in a small amount of image blurring but no pixelwobble.
 
-Added restore function.
-
-New menu icon.
-
-Impoted code from TempGBA-mod-dstwo-26750220.
+Bilinear filter can be toggled on or off.
